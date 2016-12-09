@@ -3,6 +3,7 @@ layout: post
 title:  "Fixing DNS issues when using Vagrant Landrush"
 date:   2016-03-25 21:02:23 +0000
 categories: openshift vagrant
+comments: true
 ---
 The [landrush plugin](https://github.com/vagrant-landrush/landrush) for [Vagrant](https://www.vagrantup.com/) is mega useful. It acts as a mini-DNS server for your host and guest machines, making the process of network config so much easier.
 
@@ -40,7 +41,9 @@ Any DNS queries from the guest machine will then be referred to, and the result 
 
 To set the `upstream` config parameter, add the following to your _Vagrantfile_:
 
-    config.landrush.upstream 'x.x.x.x'
+{% highlight ruby %}
+config.landrush.upstream 'x.x.x.x'
+{% endhighlight %}
 
 where `x.x.x.x` is the IP address of your network’s DNS server. You can usually get the IP address of your DNS server from your host OS’s network settings.
 
