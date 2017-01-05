@@ -60,6 +60,11 @@ Grant the `admin` user permissions to administer the cluster (e.g. to create a P
 
     oc adm policy add-cluster-role-to-user cluster-admin admin
 
+## Bonus section: Docker!
+
+Delete all exited Docker containers:
+
+    docker rm $(docker ps -aq)
 
 [os]: https://www.openshift.org/
 [cdk]: https://developers.redhat.com/products/cdk/overview/
