@@ -50,6 +50,10 @@ If something's still not working:
 
     oc get events
 
+Changing log level of a build:
+
+    oc set env bc/my-build-name BUILD_LOGLEVEL=[1-5]
+
 Problems pulling images? Check the integrated Docker registry logs:
 
     oc logs docker-registry-n-{xxxxx} -n default | less
