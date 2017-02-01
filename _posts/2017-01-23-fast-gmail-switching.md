@@ -36,6 +36,15 @@ When you go to this URL, Google will switch to that account automatically, and l
 
 Do it now! Create yourself a bookmark and access your Gmail account quickly. Saves me at least 5 seconds every time I do it. :-)
 
+---
+
+**Update (2017-02-01)**
+
+One for the real Gmail power users: if you want fast Google account switching _and other funky stuff_ wrapped up in a desktop app, and you don't mind spending $20 a year for it, then you might be interested in [Shift][1].
+
+[1]: https://tryshift.com
+
+
 
 
 
