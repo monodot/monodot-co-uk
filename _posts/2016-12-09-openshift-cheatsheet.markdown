@@ -40,6 +40,30 @@ Create a new app using one of the templates, and download dependencies from a lo
 
     oc new-app jboss-webserver30-tomcat8-openshift~https://github.com/monodot/helloworld-gwt -e MAVEN_MIRROR_URL=http://nexus.yourcompany.com:8081/nexus/content/groups/public/
 
+## Integrated Docker registry
+
+Verify that the registry is up and running in the `default` namespace:
+
+    oc get all -n default
+
+Try redeploying the registry:
+
+    oc deploy docker-registry --retry
+
+## Troubleshooting a local all-in-one cluster (`oc cluster up`)
+
+See all containers running locally:
+
+    docker ps
+
+Open a terminal in the `origin` container (where the all-in-one OpenShift server is located):
+
+    docker exec -it origin bash
+
+See logs from the `origin` container:
+
+    docker logs origin
+
 ## Debugging
 
 If something's not working, or not deploying:

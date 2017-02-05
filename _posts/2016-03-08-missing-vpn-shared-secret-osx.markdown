@@ -158,7 +158,7 @@ To confirm this wasn’t the expected behaviour, I ran the same `ls` on another 
 
 To remove the restricted attribute from your **System.keychain** file and enable OS X to be able to successfully read/write your shared secret for VPN connections, follow the steps below. Make sure you take a backup first.
 
-1. Boot into Recovery mode (hold down Option+R on bootup)
+1. Boot into Recovery mode (hold down Command+R on bootup)
 1. If you’re using FileVault, unlock the disk first by selecting Disk Utility from the recovery menu, finding your disk (e.g. Macintosh HD) and choosing File → Unlock. Enter your disk unlock password (usually your Mac login).
 1. Open a Terminal window using Utilities → Terminal.
 1. Enter the command: `chflags norestricted /Volumes/Macintosh\ HD/Library/Keychains/System.keychain`. This will remove the restricted flag from your **System.keychain** file.
