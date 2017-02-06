@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "vim Cheat Sheet"
-date:   2016-02-06 13:00:00 +0000
+date:   2016-02-06 00:00:00 +0000
 categories: cheatsheet
 comments: true
 ---
