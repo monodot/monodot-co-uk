@@ -6,11 +6,11 @@ categories: openshift
 comments: true
 ---
 
-Just some useful commands for [OpenShift][os] 3.0+ (Kubernetes/Docker). To get started with OpenShift, try one of the following:
+Just some useful commands for [OpenShift][os] 3.0+ (Kubernetes/Docker). To get started with OpenShift:
 
-- get the [OpenShift Origin All-in-one-VM][originvm]
+- get [Minishift][minishift]
 - get the [Red Hat Container Development Kit][cdk]
-- on a machine with the `oc` command installed, just type `oc cluster up`
+- on a machine with Docker and the `oc` command installed, just type `oc cluster up`
 
 NB: This is a work in progress - so if you have any commands you'd like to suggest, please add them in the comments. Thankyou!
 
@@ -64,7 +64,7 @@ See logs from the `origin` container:
 
     docker logs origin
 
-View the _master-config_ in the `origin` container:
+View the _master-config_ file in the `origin` container:
 
     docker exec -it origin cat /var/lib/origin/openshift.local.config/master/master-config.yaml
 
@@ -83,9 +83,8 @@ Finding what `kube` utils are available in the `origin` container:
     kubernetes
     kube-scheduler
 
-MacBook starts burning up / running out of RAM:
+Q. MacBook starts burning up / running out of RAM? Java containers hanging on startup?
 
-- Java containers may hang on startup
 - Increase the RAM available to Docker for Mac (this will require a Docker restart)
 - `docker stop` any non-essential containers that you may be running _outside_ OpenShift
 
@@ -99,7 +98,7 @@ If something's still not working:
 
     oc get events
 
-Changing log level of a build:
+Changing the log level of a build:
 
     oc set env bc/my-build-name BUILD_LOGLEVEL=[1-5]
 
@@ -121,11 +120,11 @@ Delete all exited Docker containers:
 
 View the size of the Docker storage file (Docker for Mac):
 
-    du -h -d 1  ~/Library/Containers/com.docker.docker
+    du -h -d 1 ~/Library/Containers/com.docker.docker
 
 [os]: https://www.openshift.org/
 [cdk]: https://developers.redhat.com/products/cdk/overview/
-[originvm]: https://www.openshift.org/vm/
+[minishift]: https://www.openshift.org/minishift/
 [clusterup]: https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md
 [jbosstpl]: https://github.com/jboss-openshift/application-templates
 

@@ -3,13 +3,14 @@ title: About
 layout: post
 date: 2016-12-09
 ---
+Hello! My name is Tom Donohue and this is my web site.
 
-Hello! My name is Tom Donohue and this is my web site. This site is to showcase the things I’m working on, and for random - but hopefully useful -writings on my blog.
+This site is to showcase the things I’m working on, and for random writings on my blog. I hope you find some of this useful!
 
-Currently my main projects and activities are:
+Currently my main activities are:
 
-- [Integration Wire](https://integrationwire.com), a blog about open source integration, middleware and PaaS
-- [My GitHub](https://github.com/monodot), where I post code and stuff
+- [Integration Wire](https://integrationwire.com), a blog with tutorials on open source integration and middleware (like Apache Camel and Talend). This is where I share things I learn from my job as a software consultant.
+- [My GitHub](https://github.com/monodot), where I share code and stuff
 
 You can contact me:
 
@@ -20,3 +21,4 @@ This site is made with [Jekyll](https://jekyllrb.com/) and the [Hagura](http://w
 
 Thanks for visiting!
 
+PS. **Why monodot?** Because it's an anagram of the first 7 letters of my name.
