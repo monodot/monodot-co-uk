@@ -50,7 +50,7 @@ Try redeploying the registry:
 
     oc deploy docker-registry --retry
 
-## Troubleshooting a local all-in-one cluster (`oc cluster up`)
+## Troubleshooting/configuring a local all-in-one cluster (`oc cluster up`)
 
 See all containers running locally:
 
@@ -63,6 +63,31 @@ Open a terminal in the `origin` container (where the all-in-one OpenShift server
 See logs from the `origin` container:
 
     docker logs origin
+
+View the _master-config_ in the `origin` container:
+
+    docker exec -it origin cat /var/lib/origin/openshift.local.config/master/master-config.yaml
+
+Edit the _master-config_ file when using the `oc-cluster` wrapper utility:
+
+    vim ~/.oc/profiles/[profile-name]/config/master/master-config.yml
+
+Finding what `kube` utils are available in the `origin` container:
+
+    # docker exec origin ls /usr/bin | grep kube
+    kube-apiserver
+    kube-controller-manager
+    kubectl
+    kubelet
+    kube-proxy
+    kubernetes
+    kube-scheduler
+
+MacBook starts burning up / running out of RAM:
+
+- Java containers may hang on startup
+- Increase the RAM available to Docker for Mac (this will require a Docker restart)
+- `docker stop` any non-essential containers that you may be running _outside_ OpenShift
 
 ## Debugging
 
@@ -93,6 +118,10 @@ Grant the `admin` user permissions to administer the cluster (e.g. to create a P
 Delete all exited Docker containers:
 
     docker rm $(docker ps -aq)
+
+View the size of the Docker storage file (Docker for Mac):
+
+    du -h -d 1  ~/Library/Containers/com.docker.docker
 
 [os]: https://www.openshift.org/
 [cdk]: https://developers.redhat.com/products/cdk/overview/
