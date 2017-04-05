@@ -26,6 +26,10 @@ Import an image from an external registry:
 
     oc import-image --from=registry.access.redhat.com/jboss-amq-6/amq62-openshift -n openshift jboss-amq-62:1.3 --confirm
 
+Grant permissions for a build to pull an image from another namespace:
+
+    oc policy add-role-to-user system:image-puller system:serviceaccount:yourbuildnamespace:builder -n namespace-to-pull-from
+
 ## JBoss Middleware
 
 Install the JBoss middleware image streams:
