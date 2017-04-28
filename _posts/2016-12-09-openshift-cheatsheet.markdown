@@ -54,7 +54,17 @@ Try redeploying the registry:
 
     oc deploy docker-registry --retry
 
-## Troubleshooting/configuring a local all-in-one cluster (`oc cluster up`)
+## Troubleshooting
+
+### The `oc` command line tool
+
+(Windows) Tell OC to use your local C: drive as the location for its `.kube` config file. Useful in environments where your home drive is set to a network drive, or your `.kube` config file is otherwise inaccessible:
+
+    set KUBECONFIG=C:\Users\username\.kube\config
+    set HOMEDRIVE=C:
+    set HOMEPATH=C:\Users\username
+    
+### Configuring a local all-in-one cluster (`oc cluster up`)
 
 See all containers running locally:
 
@@ -92,7 +102,7 @@ Q. MacBook starts burning up / running out of RAM? Java containers hanging on st
 - Increase the RAM available to Docker for Mac (this will require a Docker restart)
 - `docker stop` any non-essential containers that you may be running _outside_ OpenShift
 
-## Debugging
+### Debugging
 
 If something's not working, or not deploying:
 
