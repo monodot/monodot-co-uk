@@ -61,6 +61,9 @@ Try redeploying the registry:
 (Windows) Tell OC to use your local C: drive as the location for its `.kube` config file. Useful in environments where your home drive is set to a network drive, or your `.kube` config file is otherwise inaccessible:
 
     set KUBECONFIG=C:\Users\username\.kube\config
+
+Or use these:
+
     set HOMEDRIVE=C:
     set HOMEPATH=C:\Users\username
     
