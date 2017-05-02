@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Homebrew cheat sheet"
-date:   2016-12-09 17:00:00 +0000
+date:   2017-05-01 17:00:00 +0000
 categories: mac
 comments: true
 ---
