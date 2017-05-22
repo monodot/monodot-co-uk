@@ -10,17 +10,44 @@ Just some useful commands for [OpenShift][os] 3.0+ (Kubernetes/Docker). To get s
 
 - get [Minishift][minishift]
 - get the [Red Hat Container Development Kit][cdk]
-- on a machine with Docker and the `oc` command installed, just type `oc cluster up`
+- on a machine with Docker and the [`oc` client tools][occlient] installed, just type `oc cluster up`
 
 NB: This is a work in progress - so if you have any commands you'd like to suggest, please add them in the comments. Thankyou!
 
-## Starting up
+## Getting started
 
 [Start a simple local all-in-one OpenShift cluster][clusterup] with a configured registry, router, image streams, and default templates:
 
     oc cluster up
 
+## Working with objects
+
+Copy an object from another namespace (e.g. a BuildConfig, DeploymentConfig, etc.):
+
+    oc export bc/your-bc-name -n otherproject -o json | oc create -f -
+
+## Working with builds
+
+Start a build and follow the log onscreen:
+
+    oc start-build your-build-name --follow
+
+Trigger a build, on completion of another build (if the build pushes to the ImageStreamTag `my-build:latest`):
+
+    oc set trigger bc/my-build-after --from-image=my-build:latest
+
+## Working with secrets
+
+Create a new secret for a build, where the source is located in a Git repository that requires authentication:
+
+    oc secrets new-basicauth gitsecret --username=jsmith --password=secret
+    oc secrets link sa/builder secret/gitsecret
+
 ## Working with images
+
+Create an image stream:
+
+    oc create is your-image-stream-name
 
 Import an image from an external registry:
 
@@ -67,7 +94,7 @@ Or use these:
     set HOMEDRIVE=C:
     set HOMEPATH=C:\Users\username
     
-### Configuring a local all-in-one cluster (`oc cluster up`)
+### Inspecting a local all-in-one cluster (`oc cluster up`)
 
 See all containers running locally:
 
@@ -144,4 +171,5 @@ View the size of the Docker storage file (Docker for Mac):
 [minishift]: https://www.openshift.org/minishift/
 [clusterup]: https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md
 [jbosstpl]: https://github.com/jboss-openshift/application-templates
+[occlient]: https://github.com/openshift/origin/releases
 
