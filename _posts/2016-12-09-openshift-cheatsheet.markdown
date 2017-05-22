@@ -4,12 +4,13 @@ title:  "OpenShift Cheat Sheet"
 date:   2016-12-09 17:00:00 +0000
 categories: openshift
 comments: true
+toc: true
 ---
 
 Just some useful commands for [OpenShift][os] 3.0+ (Kubernetes/Docker). To get started with OpenShift:
 
-- get [Minishift][minishift]
-- get the [Red Hat Container Development Kit][cdk]
+- get [Minishift][minishift], or
+- get the [Red Hat Container Development Kit][cdk], or
 - on a machine with Docker and the [`oc` client tools][occlient] installed, just type `oc cluster up`
 
 NB: This is a work in progress - so if you have any commands you'd like to suggest, please add them in the comments. Thankyou!
@@ -26,7 +27,7 @@ Copy an object from another namespace (e.g. a BuildConfig, DeploymentConfig, etc
 
     oc export bc/your-bc-name -n otherproject -o json | oc create -f -
 
-## Working with builds
+## Builds
 
 Start a build and follow the log onscreen:
 
@@ -36,14 +37,7 @@ Trigger a build, on completion of another build (if the build pushes to the Imag
 
     oc set trigger bc/my-build-after --from-image=my-build:latest
 
-## Working with secrets
-
-Create a new secret for a build, where the source is located in a Git repository that requires authentication:
-
-    oc secrets new-basicauth gitsecret --username=jsmith --password=secret
-    oc secrets link sa/builder secret/gitsecret
-
-## Working with images
+## Images
 
 Create an image stream:
 
@@ -57,7 +51,14 @@ Grant permissions for a build to pull an image from another namespace:
 
     oc policy add-role-to-user system:image-puller system:serviceaccount:yourbuildnamespace:builder -n namespace-to-pull-from
 
-## JBoss Middleware
+## Secrets
+
+Create a new secret for a build, where the source is located in a Git repository that requires authentication:
+
+    oc secrets new-basicauth gitsecret --username=jsmith --password=secret
+    oc secrets link sa/builder secret/gitsecret
+
+## Red Hat JBoss Middleware
 
 Install the JBoss middleware image streams:
 
@@ -94,7 +95,7 @@ Or use these:
     set HOMEDRIVE=C:
     set HOMEPATH=C:\Users\username
     
-### Inspecting a local all-in-one cluster (`oc cluster up`)
+### The all-in-one cluster (`oc cluster up`)
 
 See all containers running locally:
 
@@ -132,7 +133,7 @@ Q. MacBook starts burning up / running out of RAM? Java containers hanging on st
 - Increase the RAM available to Docker for Mac (this will require a Docker restart)
 - `docker stop` any non-essential containers that you may be running _outside_ OpenShift
 
-### Debugging
+### Other debugging
 
 If something's not working, or not deploying:
 
@@ -150,7 +151,7 @@ Problems pulling images? Check the integrated Docker registry logs:
 
     oc logs docker-registry-n-{xxxxx} -n default | less
 
-## Administration
+## Administration/security
 
 Grant the `admin` user permissions to administer the cluster (e.g. to create a PersistentVolume):
 

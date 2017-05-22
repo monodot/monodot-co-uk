@@ -37,4 +37,12 @@ exclude:
 disqus:
   shortname: monodot
 
-gems: [jekyll-seo-tag, jekyll-paginate, jekyll-sitemap]
+gems: [jekyll-seo-tag, jekyll-paginate, jekyll-sitemap, jekyll-last-modified-at, jekyll-toc]
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      show_date: true

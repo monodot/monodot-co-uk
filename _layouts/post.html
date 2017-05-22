@@ -4,10 +4,12 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <h1 class="headline">{{page.title}}</h1>
-  <div class="meta"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
+  {% if page.show_date %}
+    <div class="meta"><span>Last updated: {{ page.last_modified_at | date: '%B %d, %Y' }}</span></div>
+  {% endif %}
 
   <div class="post-content">
-    {{content}}
+    {{ content | toc }}
   </div>
 
 
