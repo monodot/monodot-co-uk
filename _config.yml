@@ -37,7 +37,7 @@ exclude:
 disqus:
   shortname: monodot
 
-gems: [jekyll-seo-tag, jekyll-paginate, jekyll-sitemap, jekyll-last-modified-at, jekyll-toc]
+gems: [jekyll-seo-tag, jekyll-paginate, jekyll-sitemap, jekyll-last-modified-at]
 
 defaults:
   -
