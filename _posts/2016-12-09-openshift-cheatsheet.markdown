@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "OpenShift Cheat Sheet"
+description: "A page of useful commands and one-liners for OpenShift 3 - including builds, deployments, and troubleshooting."
 date:   2016-12-09 17:00:00 +0000
 categories: openshift
 comments: true
