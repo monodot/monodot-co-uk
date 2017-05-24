@@ -62,15 +62,15 @@ Create a new secret for a build, where the source is located in a Git repository
     oc secrets new-basicauth gitsecret --username=jsmith --password=secret
     oc secrets link sa/builder secret/gitsecret
 
-## Red Hat JBoss Middleware
+## JBoss Middleware for OpenShift
 
-JBoss Fuse, AMQ, EAP. _Lush._
+JBoss Fuse, AMQ, EAP. _All the lush things._
 
 Install the JBoss middleware image streams:
 
     oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/jboss-image-streams.json -n openshift
 
-Install one of the [JBoss middleware templates for OpenShift][jbosstpl] (A-MQ, EAP, etc.)
+Install one of the [JBoss middleware templates][jbosstpl] to allow you to create AMQ, EAP, etc instances, from the web console or CLI:
 
     oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/amq/amq62-persistent-ssl.json -n openshift
 
