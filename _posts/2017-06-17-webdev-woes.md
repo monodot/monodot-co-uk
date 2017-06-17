@@ -108,7 +108,7 @@ Here's the list of packages that **npm** says are installed in my project (that'
 
 So far, I'm finding that I'm still more comfortable in back-end work. No surprise there. :)
 
-Very similar tools and processes are being followed. Stable releases. Well-trodden approaches to software development. Architectural patterns.
+Very similar tools and processes are being followed. Familiar approaches to software development. Architectural patterns I know.
 
 By contrast, dipping my toe in the front-end is proving to be a huge learning curve for me. Even something as simple as including a CSS is challenging me. And this is even before I've written a single line of JavaScript.
 
