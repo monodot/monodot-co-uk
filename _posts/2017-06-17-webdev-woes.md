@@ -41,7 +41,9 @@ Since then, the following things have happened:
 
 ## My stack
 
-For Billform, I decided to go with what I know. I didn't want to waste hours learning a brand new language.
+To make a start with Billform, I needed to choose a stack quickly.
+
+I decided to make the most of what I already know. I didn't want to waste hours learning a brand new language.
 
 So, I went with PHP. Because I already know the language, and people still seem to use it.
 
@@ -61,56 +63,62 @@ It also has a huge user base. Just look at all these stars for [laravel on GitHu
 
 To get started, I gorged on content from [Jeffrey Way's excellent Laracasts][laracasts] and thanks to the posts of [Adam Wathan][adamwathan] I decided to take a Test-Driven Development approach to build. 
 
-And now, I've got test cases implemented and passing, and I'm easing comfortably into a development workflow.
+Now, I've got test cases implemented and passing, and I'm easing comfortably into a development workflow.
 
-All of these advances in PHP development have made sense to me, because they are the same concepts I fortunately already know from the Java world (Hibernate for ORM, JUnit for testing, etc.)
+All of these advances in PHP development have made sense to me, because they are the same concepts I already know from the Java world (Hibernate for database abstraction, JUnit for testing, and so on.)
+
+Where I'm having a **really hard time** is in catching up with front-end development. 
 
 ## The hard part
 
-The **hard part** for me is been catching up with front-end development. 
-
 My first blocker in this respect is understanding **Node** and the sprawling ecosystem that has grown up around it. 
 
-I'm only pulling in a CSS framework (Bulma) for Billform. But I'm still [encouraged to use `npm`][bulma-install] to install it as a dependency:
+Node and its pal **npm** now seem to own the front-end development process.
+
+Let's take an example. I decided to use a CSS framework called [Bulma][bulma] for Billform. 
+
+To install Bulma, I'm [encouraged to use `npm`][bulma-install] to install it as a dependency:
 
     npm install bulma
 
-I'm also encouraged to use [Laravel Mix][laravel-mix] to start _compiling my assets_.
+Meanwhile, in the documentation for Laravel, I'm encouraged to use [Laravel Mix][laravel-mix] to start _compiling my assets_.
 
-I'd like to be able to tweak and override the Bulma CSS, so I'm sure that using an asset pipeline like Mix is what I need to do. But jeez it's quite complicated.
+I'd like to be able to tweak and override the Bulma CSS. And I also want to adopt the tools recommended for the Laravel framework. So I think that using an asset pipeline like Laravel Mix is what I need to do. And therefore I also need to understand **npm**. But jeez it's quite complicated.
 
-For example, this is the error that prompted me to take a break and write this blog post.
+For example, this is the error that prompted me to take a break and write this blog post:
 
 ![These files actually exist]({{ site.url }}/assets/npm-error.jpg)
 
-(Those dependencies that are "not found", actually **do** exist)
+(For the record, I'm still trying to decipher this one, because those dependencies that are "not found", actually **do** exist on my hard disk. So what's the issue here?)
 
-So far I've been encouraged to `rm -rf node_modules && npm install`. This took about 30 minutes and made my moderate-spec laptop almost melt. 
+So far in _just getting started_, I've been encouraged to reinstall everything using `rm -rf node_modules && npm install`. This took about 30 minutes and made my moderate-spec laptop almost melt. 
 
-I still can't imagine what it was doing that could have been so complicated.
+I can't think what it was doing that could have been so complicated.
 
-I've also struggled to understand the Node version numbering scheme. I was running `node 0.10.4`. The versions seem to have been 0.10.x, then 0.12.x, then... _4.x_? Then 8.x was released after only one year. This makes Firefox's version numbering seem normal.
+Then I thought I might need to upgrade **node**. This was my introduction to the Node version numbering scheme. I was running `node 0.10.4`. The versions seem to have been 0.10.x, then 0.12.x, then... _4.x_? Then 8.x was released, after only one year! This makes Firefox's version numbering seem normal.
 
 ![Musings on the node versioning scheme](https://media.giphy.com/media/zXj92SqHuz2p2/giphy.gif)
 
-Now npm is telling me it can't find a dependency that I'm sure exists. 
+And so now **npm** tells me it can't find a dependency that I'm sure exists. 
 
-At the same time, Laravel Mix tells me it can't find 'babel-loader', whatever that is.
+At the same time, Laravel Mix tells me that it can't find 'babel-loader', whatever that is.
 
-Here's the list of packages that **npm** says are installed in my project (that's a simple Laravel project, using Laravel Mix and Bulma):
+Here's the list of packages that **npm** says are installed in my project (that's a fairly simple Laravel project, using Laravel Mix and Bulma):
 
     $ npm list | wc -l
     7052
 
-**7,052** packages. That is absolutely insane.
+**7,052 packages**. That is absolutely **insane**.
+
+Is web development really this hard?
 
 ## Closing thoughts
 
-So far, I'm finding that I'm still more comfortable in back-end work. No surprise there. :)
+So far, I'm finding that I'm still more comfortable with back-end work. No surprise there. :)
 
-Very similar tools and processes are being followed. Familiar approaches to software development. Architectural patterns I know.
+Very similar tools and processes are being followed. Familiar approaches to software development. Architectural patterns I know. I feel at home.
 
-By contrast, dipping my toe in the front-end is proving to be a huge learning curve for me. Even something as simple as including a CSS is challenging me. And this is even before I've written a single line of JavaScript.
+By contrast, dipping my toe in the front-end is proving to be a huge learning curve for me. Even something as simple as including a CSS framework is proving very challenging. And this is even before I've written a single line of JavaScript.
 
 I love learning new stuff, and that's one of the things that keeps me in IT.
 
@@ -129,4 +137,4 @@ But man, Y U make thing so complicated?
 [adamwathan]: https://adamwathan.me/
 [bitbucket]: https://bitbucket.org/product
 [bulma-install]: http://bulma.io/documentation/overview/start/
-
+[bulma]: http://bulma.io
