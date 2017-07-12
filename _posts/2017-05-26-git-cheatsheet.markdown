@@ -19,6 +19,21 @@ Undo changes to a file (discard unstaged changes):
 
     git checkout -- filename.txt
 
+## Branches and Tags
+
+Create (checkout) a new branch:
+
+    git checkout -b mybranch
+
+Push a branch remotely (to the `origin` remote repository):
+
+    git push -u origin mybranch
+
+Delete a branch both locally and remotely:
+
+    git push origin -d mybranch
+    git branch -d mybranch
+
 ## Merging
 
 Merging changes from the development branch into master, and squashing the intermediate commits:
@@ -26,6 +41,12 @@ Merging changes from the development branch into master, and squashing the inter
     git checkout master
     git merge --squash develop
     git commit
+
+## Remote repositories
+
+List all remote repositories:
+
+    git remote -v
 
 ## Forks
 

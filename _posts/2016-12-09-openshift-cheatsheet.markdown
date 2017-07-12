@@ -84,6 +84,10 @@ Verify that the registry is up and running in the `default` project:
 
     oc get all -n default
 
+Find the IP address of the Docker registry (by showing all services in the `default` project):
+
+    oc get svc -n default
+
 Redeploy the integrated Docker registry:
 
     oc deploy docker-registry --retry
