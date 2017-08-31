@@ -13,13 +13,15 @@ Stuff I use and like on a regular basis!
 
 ### Travel
 
-- [Foursquare][foursquare] - it's not as trendy any more, but it's awesome for finding local food &amp; drink places. Especially useful whenever I travel somewhere new.
-- [LuckyTrip][luckytrip] - instant holiday inspiration for weekend breaks in Europe, with flights, accommodation and things to do, all matching your set budget.
+- [Foursquare][foursquare-web] ([app][foursquare-ios]) - it's not as trendy as it used to be, but it's still awesome for finding local food &amp; drink places. It's very useful when I travel somewhere new.
+- [LuckyTrip][luckytrip] - instant holiday inspiration for a weekend break somewhere, with flights, accommodation and things to do, all matching your chosen budget.
 
 
 
 [minikeepassios]: http://minikeepass.github.io/
 [minikeepassgithub]: https://github.com/MiniKeePass/MiniKeePass
 [luckytrip]: https://www.luckytrip.co.uk/
+[foursquare-web]: https://foursquare.com/
+[foursquare-ios]: https://itunes.apple.com/gb/app/foursquare-city-guide/id306934924?mt=8
 
 
