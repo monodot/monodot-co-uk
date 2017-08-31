@@ -14,6 +14,11 @@ Format/indent/pretty-print an XML document:
 
     :%!xmllint --format %
 
+Insert spaces instead of tabs (`expandtab`) when pressing the Tab key - how to switch on and off:
+
+    :set et
+    :set noet
+
 ## Personalisation
 
 How I set up my Vim ready to use:

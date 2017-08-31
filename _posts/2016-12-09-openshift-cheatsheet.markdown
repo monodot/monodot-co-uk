@@ -171,6 +171,14 @@ Grant the `admin` user permissions to administer the cluster (e.g. to create a P
 
     oc adm policy add-cluster-role-to-user cluster-admin admin
 
+Grant edit permissions in the current namespace to the service account called `jenkins`:
+
+    oc policy add-role-to-user edit -z jenkins
+
+Check which users can perform a certain action (useful e.g. when debugging why Jenkins can't create slave pods):
+
+    oc policy who-can create pod
+
 ## Bonus section: Docker!
 
 Delete all exited Docker containers:
