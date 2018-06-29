@@ -116,11 +116,13 @@ So in all three cases, sales came from people who I had either helped out with t
 
 # The feeling of the first sale
 
-This is the first product that I've created. It felt amazing to know that people actually want to buy something you created. 
+This is the first product that I've created. It felt amazing to know that people actually want to buy something I created. 
 
 I previously worried that I was serving a tiny, difficult niche (enterprise integration developers!), and that it would be impossible to make a sale. 
 
-But my sales this week show that's maybe not true. If you can provide value for someone, they will buy from you. 
+But my sales this week show that's maybe not entirely true. 
+
+If you can provide real value to someone, they will buy from you. 
 
 I'm buoyed by these sales and can't wait to finish the book. The great bonus is that I now have a small amount of data that I can start using to improve what I offer for my blog readers. 
 
