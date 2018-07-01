@@ -13,17 +13,20 @@ layout: compress
   {% seo %}
 </head>
 <body style="background-color: rgb(255, 255, 255)">
+  {% if page.url != "/" %}
   <header>
     <a href="{{site.baseurl}}/"><div class="home"></div></a>
   </header>
+  {% endif %}
 
   {{ content }}
 
   <footer>
 
     <div class="links">
-        <a href="{{site.baseurl}}/about/">About</a>
-        <a href="{{site.baseurl}}/resources/">Resources</a>
+        <a href="{{site.baseurl}}/about/">About me</a> |
+        <a href="{{site.baseurl}}/now/">What I'm doing now</a> |
+        <a href="{{site.baseurl}}/resources/">Resources and links</a>
     </div>
     <div class="theme" onclick="theme()" style="    background-image: url({{site.baseurl}}/images/theme.svg)"></div>
   </footer>

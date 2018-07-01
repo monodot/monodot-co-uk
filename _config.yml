@@ -46,3 +46,13 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       show_date: true
+      show_cta_form: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      show_date: false
+      show_cta_form: true
+

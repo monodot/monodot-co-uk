@@ -10,6 +10,7 @@ This site is to showcase the things I’m working on, and for random writings on
 Currently my main activities are:
 
 - [Clever Builder](https://cleverbuilder.com), a blog with tutorials on open source integration and middleware (like Apache Camel). This is where I share things I learn from my job as a software consultant.
+
 - [My GitHub](https://github.com/monodot), where I share code and stuff
 
 You can contact me:

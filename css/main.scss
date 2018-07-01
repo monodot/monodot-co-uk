@@ -15,6 +15,7 @@ $spacing-unit:     30px;
 $text-color:       #333;
 $background-color: #fdfdfd;
 $brand-color:      #6D6A75;
+$bright-color:     #60c07d;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -51,4 +52,7 @@ $on-laptop:        800px;
 ;
 @import
         "syntax"
+;
+@import
+        "overrides"
 ;
