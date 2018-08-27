@@ -5,6 +5,10 @@ date: 2017-08-31
 ---
 Stuff I use and like on a regular basis!
 
+## Webapps/SaaS
+
+- [Uptime Robot][uptimerobot] - This is a great, super-simple, free tool for monitoring up to 50 websites. It alerts me by email when any of my sites are down. Incredibly useful when you're just a solo webmaster, and you don't have time to check everything manually or set up a fancy monitoring solution!
+
 ## iOS apps
 
 ### Productivity
@@ -25,4 +29,5 @@ Stuff I use and like on a regular basis!
 [foursquare-web]: https://foursquare.com/
 [foursquare-ios]: https://itunes.apple.com/gb/app/foursquare-city-guide/id306934924?mt=8
 [1writer-web]: http://1writerapp.com/
+[uptimerobot]: https://uptimerobot.com
 

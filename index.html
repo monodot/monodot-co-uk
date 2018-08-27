@@ -4,17 +4,18 @@ layout: post
 comments: false
 ---
 
-<p>Welcome to my blog! 👋</p>
+<p>Hi! Welcome to my blog! 👋</p>
 
-<p>You can <a href="about/">find out more about me</a>, <a href="https://www.getdrip.com/forms/114345055/submissions/new">join my email list</a>, or check out my most recent blog posts below:</p>
+<p>You can <a href="about/">find out more about me</a>, 
+  <a href="https://www.getdrip.com/forms/114345055/submissions/new">join my email list</a>, 
+  <a href="now/">find out what I'm working on</a>
+  or check out my most recent blog posts below:</p>
 
-<!--
-<h2>Recent posts</h2>
--->
+<h2>Recent blog posts</h2>
 
 {% for post in site.posts %}
 
-<h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+<p><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></p>
 {{ post.excerpt }}
 
 {% endfor %}
