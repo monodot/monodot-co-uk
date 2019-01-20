@@ -6,7 +6,7 @@ show_date: false
 ---
 What I'm working on right now:
 
-- [Camel Step-by-Step][camelsbs] - a book for Apache Camel for beginners, due to launch in August 2018
+- [Camel Step-by-Step][camelsbs] - a book for Apache Camel for beginners, which was launched in January 2019.
 
 - [Clever Builder][cb] - a blog containing programming tutorials
 

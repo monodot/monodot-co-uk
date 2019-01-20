@@ -16,6 +16,7 @@ Currently my main activities are:
 You can contact me:
 
 - on Twitter [@monodot](https://twitter.com/monodot)
+
 - by email, using _my first name_ @monodot.co.uk
 
 This site is made with [Jekyll](https://jekyllrb.com/) and the [Hagura](http://webjeda.com/hagura) theme.
