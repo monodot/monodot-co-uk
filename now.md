@@ -8,11 +8,11 @@ What I'm working on right now:
 
 - [Camel Step-by-Step][camelsbs] - a book for Apache Camel for beginners, which was launched in January 2019.
 
-- [Clever Builder][cb] - a blog containing programming tutorials
+- [Tom Donohue's Blog][tomd] - a blog containing programming tutorials
 
 - [Flat Haus][fh] - a home decor directory and blog
 
 [camelsbs]: https://cleverbuilder.com/camelstepbystep
-[cb]: https://cleverbuilder.com
+[tomd]: https://tomd.xyz
 [fh]: http://flat.haus
 

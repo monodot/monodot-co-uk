@@ -33,11 +33,12 @@ sass:
 
 exclude:
 - README.md
+- vendor/
 
 disqus:
   shortname: monodot
 
-gems: [jekyll-seo-tag, jekyll-paginate, jekyll-sitemap, jekyll-last-modified-at]
+plugins: [jekyll-seo-tag, jekyll-paginate, jekyll-sitemap, jekyll-last-modified-at]
 
 defaults:
   -
