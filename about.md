@@ -13,6 +13,8 @@ Currently my main activities are:
 
 - [My GitHub](https://github.com/monodot), where I share code and stuff
 
+- [Knowledge Base](http://kb.monodot.co.uk), a repository of cheatsheets and code snippets that I update regularly.
+
 You can contact me:
 
 - on Twitter [@monodot](https://twitter.com/monodot)
