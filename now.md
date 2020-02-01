@@ -10,9 +10,6 @@ What I'm working on right now:
 
 - [Tom Donohue's Blog][tomd] - a blog containing programming tutorials
 
-- [Flat Haus][fh] - a home decor directory and blog
-
 [camelsbs]: https://cleverbuilder.com/camelstepbystep
 [tomd]: https://tomd.xyz
-[fh]: http://flat.haus
 
