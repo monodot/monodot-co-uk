@@ -13,7 +13,6 @@ Stuff I use and like on a regular basis!
 
 ### Productivity
 
-- [MiniKeePass][minikeepassios] - [open source][minikeepassgithub] app for viewing and editing my KeePass file (for password storage). Uses fingerprint security and can save changes back to Dropbox.
 - [1Writer][1writer-web] - awesome note-taking app; read and write plaintext to your Dropbox with great syncing functionality, Markdown support, dark mode and lots more.
 
 ### Travel
@@ -23,8 +22,6 @@ Stuff I use and like on a regular basis!
 
 
 
-[minikeepassios]: http://minikeepass.github.io/
-[minikeepassgithub]: https://github.com/MiniKeePass/MiniKeePass
 [luckytrip]: https://www.luckytrip.co.uk/
 [foursquare-web]: https://foursquare.com/
 [foursquare-ios]: https://itunes.apple.com/gb/app/foursquare-city-guide/id306934924?mt=8
