@@ -1,11 +1,12 @@
 title: Tom Donohue's Blog
-author:
-  name: Tom Donohue
-  email: monodot@gmail.com
+author: Tom Donohue
+email: monodot@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Tom's personal blog, sharing what I'm up to, opinions, and stuff I'm working on.
 
 show_excerpts: false # set to true to show excerpts on the homepage
+
+permalink: /:title/
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -57,4 +58,3 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
-
