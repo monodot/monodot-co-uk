@@ -1,8 +1,7 @@
 ---
 title: Now
-layout: post
+layout: page
 date: 2018-07-01
-show_date: false
 ---
 What I'm working on right now:
 
