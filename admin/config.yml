@@ -2,6 +2,7 @@ backend:
   name: github
   branch: master # Branch to update (optional; defaults to master)
   repo: monodot/monodot-co-uk
+  base_url: https://services.mndt.co.uk/netlify-cms-oauth
 
 media_folder: "assets/uploads"
 
