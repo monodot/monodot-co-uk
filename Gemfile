@@ -1,3 +1,4 @@
 source :rubygems
-gem 'jekyll'
-gem 'minima'
+gem 'jekyll', '~>3.8'
+gem 'jekyll-theme-clean-blog'
+
