@@ -1,11 +1,12 @@
 ---
 title: About
 layout: post
-date: 2016-12-09
+date: 2016-12-09T00:00:00.000Z
 ---
+
 Hello! My name is Tom Donohue and this is my personal web site.
 
-This site is to showcase the things I’m working on, and for random writings on my blog. I hope you find some of this useful!
+This site is to showcase the things I'm working on, and for random writings on my blog. I hope you find some of this useful!
 
 Currently my main activities are:
 
@@ -13,15 +14,9 @@ Currently my main activities are:
 
 - [My GitHub](https://github.com/monodot), where I share code and stuff
 
-- [Knowledge Base](http://kb.monodot.co.uk), a repository of cheatsheets and code snippets that I update regularly.
+- [Knowledge Base](http://kb.tomd.xyz), a repository of cheatsheets and code snippets that I update regularly.
 
-You can contact me:
-
-- on Twitter [@monodot](https://twitter.com/monodot)
-
-- by email, using _my first name_ @monodot.co.uk
-
-This site is made with [Jekyll](https://jekyllrb.com/) and the [Hagura](http://webjeda.com/hagura) theme.
+This site is made with [Jekyll](https://jekyllrb.com/) and the [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) theme.
 
 Thanks for visiting!
 
