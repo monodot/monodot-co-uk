@@ -1,6 +1,5 @@
 source :rubygems
 gem 'jekyll', '~>3.8'
-gem 'jekyll-theme-clean-blog'
 
 group :jekyll_plugins do
   gem 'jekyll-seo-tag'

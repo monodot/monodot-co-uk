@@ -24,7 +24,7 @@ I haven't done web development since about 2008, when I was developing in ColdFu
 
 A lot of my time was spent with this gem:
 
-![Allaire Homesite]({{ site.url }}/assets/allaire-homesite.jpg)
+![Allaire Homesite]({{ site.url }}/assets/img/allaire-homesite.jpg)
 
 Actually ColdFusion wasn't my first intro to web development. I used to build with PHP, but long since abandoned that. Too many hours spent sanitising the `$_POST` variable. 
 
@@ -87,7 +87,7 @@ I'd like to be able to tweak and override the Bulma CSS. And I also want to adop
 
 For example, this is the error that prompted me to take a break and write this blog post:
 
-![These files actually exist]({{ site.url }}/assets/npm-error.jpg)
+![These files actually exist]({{ site.url }}/assets/img/npm-error.jpg)
 
 (For the record, I'm still trying to decipher this one, because those dependencies that are "not found", actually **do** exist on my hard disk. So what's the issue here?)
 

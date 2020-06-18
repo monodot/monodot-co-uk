@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<article itemtype="http://schema.org/CreativeWork">
+    <header>
+        <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+    </header>
+
+    {{ content }}
+</article>

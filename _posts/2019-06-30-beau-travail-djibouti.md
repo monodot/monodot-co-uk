@@ -24,7 +24,7 @@ And some extreme ironing:
 
 I do like getting to watch very obscure films on Mubi. Stuff I would never normally know about, or hunt down. Glad I made the effort with this one.
 
-[cap1]: /assets/beautravail1.jpg
-[cap2]: /assets/beautravail2.jpg
-[cap3]: /assets/beautravail3.jpg
-[cap4]: /assets/beautravail4.jpg
+[cap1]: /assets/img/beautravail1.jpg
+[cap2]: /assets/img/beautravail2.jpg
+[cap3]: /assets/img/beautravail3.jpg
+[cap4]: /assets/img/beautravail4.jpg

@@ -1,0 +1,35 @@
+{%- if page.title -%}
+  {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
+{%- endif -%}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/mvp.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/">Tom Donohue</a>
+            <ul>
+                <li><a href="/now">Now</a></li>
+                <li><a href="/links">Links</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <hr>
+        <p>My other sites: <a href="https://tomd.xyz">Tom D's Tech Blog</a> | <a href="http://kb.tomd.xyz">Knowledge Base</a> | <a href="http://www.cheeseanalogue.com">DJ Cheese Analogue</a></p>
+    </footer>
+</body>
+
+</html>

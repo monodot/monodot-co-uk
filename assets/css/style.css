@@ -1,0 +1,23 @@
+:root {
+    --article-bg: #fff;
+}
+
+body {
+    background: url('/assets/img/pattern.png');
+    font-size: 1.25em;
+}
+
+main article {
+    background: var(--article-bg);
+    border-radius: 1em;
+    padding: 2rem;
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+figure {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

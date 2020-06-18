@@ -28,7 +28,7 @@ Here are some links, apps and resources that I like and use on a regular basis. 
 
 - [LuckyTrip][lucky] (iOS app) - This is instant holiday inspiration for a weekend break somewhere, with flights, accommodation and things to do, all matching your chosen budget.
 
-### Friends' blogs
+## Friends' blogs
 
 Blogs and sites from my friends, which you should go and visit!
 

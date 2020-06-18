@@ -16,7 +16,7 @@ Are some of your accounts activated for _Inbox by Google_, but others are still 
 
 **Do you hate seeing this splash page?** Ugh, yep.
 
-![Inbox by Google is disabled for your domain]({{ site.url }}/assets/inbox-disabled-domain.png)
+![Inbox by Google is disabled for your domain]({{ site.url }}/assets/img/inbox-disabled-domain.png)
 
 Then you may like to know that you can **access Gmail for another Google Account directly, by simply adding your email address to the URL for Gmail**, like this:
 
@@ -24,11 +24,11 @@ Then you may like to know that you can **access Gmail for another Google Account
 
 (Note that you need to be logged in to the account for this trick to work)
 
-![Switching to a different Gmail account]({{ site.url }}/assets/gmail-switch.png)
+![Switching to a different Gmail account]({{ site.url }}/assets/img/gmail-switch.png)
 
 When you go to this URL, Google will switch to that account automatically, and load your Gmail inbox for that account.
 
-![Loading your other Gmail inbox]({{ site.url }}/assets/gmail-switch-2.png)
+![Loading your other Gmail inbox]({{ site.url }}/assets/img/gmail-switch-2.png)
 
 **Google Apps user?** If you also get your work email through Google (Google Apps/G-Suite), then this also works too:
 

@@ -99,7 +99,7 @@ I was at work a couple of days later, still thinking about my first sale, and th
 
 I went to my Gumroad dashboard to take a screengrab. And I was very puzzled when I saw that my dashboard was showing three sales.
 
-![3 sales in Gumroad!!]({{ site.url }}/assets/gumroad-3sales.png)
+![3 sales in Gumroad!!]({{ site.url }}/assets/img/gumroad-3sales.png)
 
 I put this down to one of my previous test purchases showing up erroneously. But, on further glance, it definitely looked like I'd made two new sales somehow. 
 
