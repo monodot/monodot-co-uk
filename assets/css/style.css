@@ -1,23 +1,52 @@
 :root {
     --article-bg: #fff;
+    --article-colour: #666;
+}
+
+a.footnote {
+    color: #fff;
 }
 
 body {
+    /* padding: 0; */
     background: url('/assets/img/pattern.png');
-    font-size: 1.25em;
+    font-family: serif;
+    font-size: 1rem;
 }
 
-main article {
-    background: var(--article-bg);
-    border-radius: 1em;
-    padding: 2rem;
-}
-
-nav {
-    margin-bottom: 2rem;
+button {
+    font-family: serif;
 }
 
 figure {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+nav {
+    margin-bottom: 0;
+}
+
+section article {
+    padding: 2rem;
+    color: var(--article-colour);
+    background: var(--article-bg);
+}
+
+section article header {
+    padding: 0 0 2rem 0;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 1rem 0;
+    }
+
+    main {
+        padding: 2rem 1rem;
+    }
+
+    section article {
+        box-shadow: 5px 5px rgba(0,0,0,0.2);
+    }
 }

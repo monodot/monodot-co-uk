@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Now"
+    url: /now/
+  - title: "About"
+    url: /about/
+  - title: "Links"
+    url: /links/
+  - title: "Contact"
+    url: /contact/

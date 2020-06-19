@@ -8,20 +8,15 @@
 
 <head>
     <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/mvp.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/assets/css/mvp.css"/>
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="/">Tom Donohue</a>
-            <ul>
-                <li><a href="/now">Now</a></li>
-                <li><a href="/links">Links</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
+        {% include nav.html nav="main" %}
     </header>
     <main>
         {{ content }}

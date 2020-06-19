@@ -1,0 +1,10 @@
+{% assign navigation = site.data.navigation[include.nav] %}
+
+<nav>
+    <a href="/">Tom Donohue</a>
+    <ul>
+        {% for nav in navigation %}
+          <li><a href="{{ nav.url }}">{{ nav.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
