@@ -3,6 +3,10 @@
     --article-colour: #666;
 }
 
+a {
+    display: inline;
+}
+
 a.footnote {
     color: #fff;
 }
@@ -10,12 +14,12 @@ a.footnote {
 body {
     /* padding: 0; */
     background: url('/assets/img/pattern.png');
-    font-family: serif;
+    /* font-family: sans-serif; */
     font-size: 1rem;
 }
 
 button {
-    font-family: serif;
+    font-family: sans-serif;
 }
 
 figure {
@@ -23,18 +27,35 @@ figure {
     margin-right: 1rem;
 }
 
+header {
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: 1rem 0.5rem;
+}
+
 nav {
     margin-bottom: 0;
 }
 
 section article {
-    padding: 2rem;
+    padding: 1rem;
     color: var(--article-colour);
     background: var(--article-bg);
 }
 
 section article header {
     padding: 0 0 2rem 0;
+}
+
+/* For the front page so it looks more even */
+section > ul {
+    padding-right: 2rem;
 }
 
 @media (min-width: 768px) {
