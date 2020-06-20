@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.header.image contains "://" %}
+  {% capture img_path %}{{ page.header.image }}{% endcapture %}
+{% else %}
+  {% capture img_path %}{{ page.header.image | relative_url }}{% endcapture %}
+{% endif %}
+
 <section>
     <article itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -12,6 +18,10 @@ layout: default
         <header>
             <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
             {% if page.date %}<p>{{ page.date | date: "%d %B %Y" }}</p>{% endif %}
+
+            <figure>
+                <img src="{{ img_path }}" alt="{{ page.title | strip_html }}"/>
+            </figure>
         </header>
 
         {{ content }}

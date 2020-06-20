@@ -2,16 +2,28 @@
   {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
 {%- endif -%}
 
+{% if page.canonical_url %}
+  {%- assign canonical_url = page.canonical_url %}
+{% else %}
+  {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+{% endif %}
+
+{%- assign page_og_image = page.image | absolute_url -%}
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>{{ page.title | strip_html }} | {{ site.title }}</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="/assets/css/mvp.css"/>
     <link rel="stylesheet" href="/assets/css/style.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This defines the width of the browser viewport as the device's width itself (for nice rendering on mobile!) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed"/>
+
+    {% include seo.html %}
+
 </head>
 
 <body>

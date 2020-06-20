@@ -1,15 +1,24 @@
 title: Tom Donohue's Blog
+name: Tom Donohue # Person who runs this site (for social graph)
 author: Tom Donohue
 email: monodot@gmail.com
+url: "https://monodot.co.uk"
+baseurl: # the subpath of your site, e.g. "/blog"
 description: > # this means to ignore newlines until "show_excerpts:"
   Tom's personal blog, sharing what I'm up to, opinions, and stuff I'm working on.
 
 show_excerpts: false # set to true to show excerpts on the homepage
-
+locale: en_GB
 permalink: /:title/
 
 twitter_username:   monodot
 github_username:    monodot
+
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links:
+    - https://twitter.com/monodot
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -23,3 +32,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-tidy
