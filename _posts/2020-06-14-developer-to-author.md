@@ -1,60 +1,75 @@
 ---
 layout: post
-title: I wrote a book
-description: I've decided to write a book about Apache Camel. Here's the background.
+title: 'From developer to author:<br/> how I wrote a book and so can you'
+description: >-
+  In 2018 I wrote and then launched a technical book. Here's my story in case
+  you would like to do the same.
 date: '2020-06-14 10:00:00 +0000'
-comments: true
+header:
+  image: /assets/img/book-spine-bw.jpg
 ---
 
-In 2018, I wrote and released a programming book.
+**In 2018, I wrote and released a programming book.**
 
-Now, as I'm updating it, I wanted to document my experiences. I want to write an article that I would have benefited from reading myself 5 years ago, to encourage me to just stop dithering and start.
+**Now, two years later, I'm updating the content of the book to keep it current, and I want to share my story of writing, from start to finish.**
 
-. . .
+**I want to write the full story I would have benefited from reading 5 years ago, to encourage me to stop dithering, and just start.**
 
-Like a lot of people, I've always had dreams in my head of coming up with some _killer idea_. And also like many people, my _Killer_ideas.txt_ file is full of utter rubbish that I'll never build.
+--------------------------------------------------------------------------------
 
-While I was waiting for that golden idea to arrive in my lap, I thought I would take the intermediate step of starting a blog.
+Like a lot of people, I've always had dreams in my head of coming up with some _killer idea_. Although my `Killer_ideas.txt` file is full of utter rubbish that I'll never build.
 
-Starting a blog is so easy. I set up a WordPress site and started sharing things I know in programming. My blog was called _Integration Wire_ and it was going to be solely about _application integration_.
+While I was waiting for a golden idea to arrive in my lap, I thought I would take the intermediate step of starting a blog.
 
-_I think this detail is important, because initially I had the naïve thought that I needed to publish content under a "brand". I later realised that's rubbish, and today my blog's name is basically my name ([Tom D's tech blog][tomd])._
+## Starting a blog
 
-(By the way, _application integration_ is the thing that happens in big companies when they need to pull data out of their HR system and put it into Payroll, things like that. It's one of my tech interests, and also a multi-million pound business, dominated by "enterprise" tech companies you've never heard of.)
+Starting a blog is very easy. I set up a WordPress site and started [sharing things that I know in programming][startablog].
 
-One of my hopes in writing the blog was to try to chip away at the nagging feeling I get that I don't deserve to be in my position at work (some people call this _impostor syndrome_). I thought that by teaching everything I know, it would help me realise that my knowledge is quite broad, and that I _do_ have chops to be where I am today.
+One of my aims in creating the blog was to try to chip away at this nagging feeling I often get that I don't deserve to be in my position at work (some people call this _impostor syndrome_).
 
-I also wanted to create things to help human beings. I create things at work all the time, but a lot of those things can be summed-up as a few dozen lines of code. Reaching an individual person, and helping them solve their problems, is a completely different experience.
+I hoped that by teaching everything I know, it would help me to realise that my knowledge is deeper than I think, and that I _do_ have chops to be in the position that I am today.
 
-I had some experience working with application integration software, so I decided to focus on that. I decided to create the kind of content I would have found useful as a beginner. I thought that if I would have appreciated it, then someone else would do too.
+At the same time, I wanted to create things to help human beings. I create things at work all the time, but a lot of these things can be summarised as just a few dozen lines of code. Reaching an individual person, and helping them solve their problems, is a completely different experience.
 
-After a year or two of writing, I'd built up a basic collection of articles on the blog. I didn't write very often, perhaps once a month at most. I added a comments plugin to the website, and started to answer some questions from readers.
+I had some experience coding and coaching on application integration software, so I decided to focus on that.
 
-I never once wrote a guest post for other blog, did any link-building or any of that SEO stuff. I'd read about all of those tactics, but the truth is I wasn't really comfortable in drawing attention to my work.
+I wanted to create the kind of content that I would have found useful as a beginner. I thought that if I would have appreciated it, then someone else would do too.
 
-I had the belief that if I wrote sufficient quality content, and Google had indexed it, that people would find it, eventually. Whether this is universally true or not, is debatable.
+My blog was called _Integration Wire_[^1] and it was going to be about _application integration_[^2]. I started writing.
 
-But that describes what actually happened. I appeared in the search results and people found my content. To this day, I'm very reliant on Google for traffic.
+## Getting visitors
+
+I didn't write very often, perhaps once a month at most. But after a year or two of writing, I'd built up a small collection of articles on the blog. I added a comments plugin to the website (initially Disqus, then retired in favour of the excellent [Isso][iss]), and started to answer some questions from readers.
+
+I never once wrote a "guest post" for other blogs, did link-building or any of that SEO stuff. I read about those tactics, but the truth is that I wasn't really comfortable in drawing attention to my work in case it actually sucked.
+
+I had the belief that if I wrote sufficient quality content, and Google indexed it, that people would find it, eventually. It's debatable whether this organic discovery is universally guaranteed for any writer.
+
+But that describes what actually happened. I must have done something which resonated with people. I appeared in the search results and people found my content. To this day, I'm extremely reliant on Google for traffic (this is not a good thing).
 
 I started to get hits, which spurred me on to write more articles.
 
-## Unblocking to get started
+## Getting started, getting blocked
 
-The next stage in the journey came at the start of 2017, when, instead of adding another crazy idea to my _App_Ideas.txt_, I began to wonder whether I could find a way to expand on my writing instead. I was getting several thousand visitors a month on the site. It seemed logical to double-down on something that was working.
+The next stage in the journey came at the start of 2017, when, instead of adding another crazy idea to my `Awful_ideas.txt` file, I started to wonder if I could find a way to expand on my writing instead. I was getting several thousand visitors a month on the site. It seemed logical to double-down on something that was working.
 
-But I became blocked before even starting.
+But before even starting, I became blocked at the stage of choosing a topic for the book.
 
-I brainstormed a list of topics that I know about, which intersect with topics that people want to learn. I went round in circles _many times_, unsure of what to write about.
+I brainstormed a list of topics that I know about, which intersect with topics that people want to learn.
 
 Should I write about something that I'm less experienced in, but is more popular?
 
 Do I even know enough about any subject to write about it?
 
+I went round in circles _many times_, unsure of what to write about.
+
 After creating endless lists, I decided to keep it simple, and focus on what I'd spent most of my time doing in the last year. This would mean writing a book on [Apache Camel][camel].
 
-Apache Camel is a framework for integration developers. It's a relatively niche open-source library, in just one programming language (Java). But it isn't so niche that it's an under-served market. There are already books out there on Apache Camel, including the excellent [Camel In Action][cia], which I bought and had learned a lot from.
+Apache Camel is a framework for integration developers. It's a relatively niche open-source library in Java. But it isn't _so_ niche that it's an under-served market. There are even print books on Apache Camel, including the excellent [Camel In Action][cia], which I bought and had learned a lot from.
 
-But I still had blockers: But my topic is too niche! And: I can't create something that already exists!
+But, I still had blockers: I thought to myself, _"But my topic is too niche!"_ And, _"I can't create something that already exists!"_
+
+The smart reader will recognise that these two statements are kind of contradictory.
 
 I needed to unblock myself so I could begin writing.
 
@@ -62,9 +77,7 @@ Firstly, I discovered that if a book already exists in a niche, it's not a bad t
 
 The second thing that got me unstuck was this quote from Sean Wes:
 
-> [There's nothing new under the sun, so stop trying to be original.][seanwes]
-
--- Sean Wes
+> ["There's nothing new under the sun, so stop trying to be original." -- Sean Wes][seanwes]
 
 It's OK to write a book on a subject which has already been covered before. How many books are there on making bread? Or writing JavaScript? Probably quite a lot.
 
@@ -74,7 +87,7 @@ I wanted to share a book on Camel for absolute beginners, written in the same st
 
 I planned to call it Camel Step-by-Step. And by now I was ready to start writing.
 
-## The saga of writing
+## The ups and downs of writing
 
 I started writing in February 2018, and I tried to write whenever I had both the free time and the enthusiasm to do so. I had no previous experience of estimating time for a project like this, but I set myself a target word count of 30,000 words and an optimistic release date of August.
 
@@ -166,8 +179,16 @@ I think you should do it too. You can create content that people will appreciate
 
 If this article inspires you to start your own blog or write a book, let me know! I would love to hear your story.
 
+_Photo by [sonia jahandari](https://unsplash.com/@soniajahandari?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](/s/photos/book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+
+[^1]: I think this detail is important, because initially I had the naive thought that I needed to publish content under a 'brand'. I later realised that is absolute rubbish, and today my blog's name is basically my name ([Tom D's tech blog][tomd]).
+
+[^2]: _application integration_ is the thing that happens in big companies when they need to pull data out of their HR system and put it into Payroll, things like that. It's one of my tech interests, and also a multi-million pound business, dominated by "enterprise" tech companies you've never heard of.
+
 [camel]: https://camel.apache.org/
 [cia]: https://www.manning.com/books/camel-in-action-second-edition
+[iss]: https://posativ.org/isso/
 [landing]: https://tomd.xyz/camelstepbystep
 [seanwes]: https://seanwes.com/tv/114-too-many-people-already-do-what-i-want-to-do/
+[startablog]: https://emptysqua.re/blog/write-an-excellent-programming-blog/
 [tomd]: https://tomd.xyz/
