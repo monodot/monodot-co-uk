@@ -1,18 +1,19 @@
 ---
 title: Links
 layout: page
-date: 2017-08-31T00:00:00.000Z
 ---
 
 Here are some links, apps and resources that I like and use on a regular basis. I hope you like them too!
 
 ## My stack (how I run this website)
 
-- [Jekyll][jek] - This is the static site generator (SSG) that I use to generate the content for this web site. It means I can store and version my blog articles in Git, and not have to worry about writing a lot of HTML. Recommend it!
+- [Jekyll][jek] - This is the static site generator (SSG) that I use to generate the content for this web site. I write my articles as text files in a Git repository, and use Jekyll to build all the HTML pages you see here.
 
-- [GoAccess](https://goaccess.io/) - This is an open source web server log analyser. I use this to produce stats for this website, and others. It's easily installed on CentOS.
+- [GoAccess](https://goaccess.io/) - This is an analysis tool for getting stats from web server logs. I use this to gather stats for my websites. It's very easy to install on CentOS.
 
-- [Uptime Robot][uptimerobot] - This is a great, super-simple, free tool for monitoring up to 50 websites. It alerts me by email when any of my websites are down. This is incredibly useful when you're just a solo webmaster, and you don't have time to set up a fancy monitoring solution!
+- [Uptime Robot][uptimerobot] - This is a great, super-simple, SaaS tool with a free tier for monitoring up to 50 websites. It alerts me by email when any of my websites are down. This is incredibly useful when you're just a solo webmaster, and you don't need to set up a fancy monitoring solution!
+
+- [MVP CSS][mvpcss] - My blog theme is my own customisation of this very simple CSS stylesheet. MVP sets some nice, basic styling to all standard HTML elements, so you don't have to worry about remembering complicated classes and structures. Excellent for those of us who weren't blessed with design skills and it means that I can keep all these pages very lightweight and fast.
 
 ## iOS apps
 
@@ -46,6 +47,7 @@ Blogs and sites from my friends, which you should go and visit!
 [jenny]: http://www.jennynelson.co.uk/
 [lucky]: https://www.luckytrip.co.uk/
 [mathsappeal]: http://itunes.apple.com/gb/podcast/maths-appeal/id1445702010
+[mvpcss]: https://andybrewer.github.io/mvp/
 [stack]: https://stackedit.io/
 [susan]: https://dothemathsthing.com/
 [tefliberia]: https://www.tefl-iberia.com
