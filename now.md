@@ -1,7 +1,6 @@
 ---
 title: What I'm doing now
 layout: page
-date: 2018-07-01T00:00:00.000Z
 subtitle: Inspired by Derek Sivers's Now page movement
 ---
 

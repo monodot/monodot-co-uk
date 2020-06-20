@@ -1,7 +1,6 @@
 ---
 title: About
 layout: page
-date: 2016-12-09T00:00:00.000Z
 ---
 
 Hello! My name is Tom Donohue and this is my personal web site.
