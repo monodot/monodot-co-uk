@@ -4,17 +4,19 @@ layout: page
 subtitle: Inspired by Derek Sivers's Now page movement
 ---
 
-_Inspired by Derek Sivers's Now page movement_
+Hello! Here's what I'm up to right now. Last updated January 2021:
 
-Hello! Here's what I'm up to right now. Last updated June 2020:
+- I'm living in London and working as a consultant at Red Hat, where I've been since 2016\. Right now I'm permanently working from home due to [COVID-19 lockdown][lockd]. I'm trying to get out for exercise most days, but not always keeping up to my noble goal ;-)
 
-- I'm living in London and working as a consultant at Red Hat, where I've been since 2016\. Right now I'm permanently working from home due to [COVID-19 lockdown][lockd].
+- I've just started a new web site, _Tutorial Works_, which I'm building up slowly with tech tutorials and articles. 
 
-- Making fledgling attempts to bake my own sourdough bread. I think I got some decent results on my first couple of bakes due to [this great recipe from Charles][charles], but I'm enjoying eating [spring onion sourdough flatbreads][flatbreads] made with the leftover starter even more. 🤤
+  I want to use it as a launchpad for improving my blogging and publishing skills. I've always been interested in writing, and in 2020 I finally decided to embrace imperfection and just start publishing more. _Tutorial Works_ is my platform for that. So I'm going all-in on publishing and teaching everything I know.
+  
+  My intention is to build up the traffic for the site over the coming months. It's still early days yet, but I'm excited about the journey!
 
-- Buying records! With my new-found free time, I dusted off my turntables and I've been buying records again and loving it. I've also been doing a few streams on Twitch on Saturdays as [Cheese Analogue][ca]. Also: watching rotary mixer videos on YouTube, following [DJ-setup Instagram accounts][doyouspin], and enjoying hunting for house, techno and vaporwave tracks on [Bandcamp][bc]
+- I'm inspired by the idea of **digital gardens**. I'm using [Foam][foam] to do my personal planning and note-taking, and wondering how I can use the digital garden approach when writing and publishing online.
 
-- Updating my [Camel Step-by-Step][camelsbs] book for beginners, for the latest Camel 3 release.
+_Inspired by [Derek Sivers's Now page movement][now]_
 
 [bc]: https://bandcamp.com/monodot
 [ca]: http://www.cheeseanalogue.com
@@ -24,3 +26,5 @@ Hello! Here's what I'm up to right now. Last updated June 2020:
 [flatbreads]: https://www.youtube.com/watch?v=vVx2oFFptG0
 [lockd]: https://en.wikipedia.org/wiki/COVID-19_pandemic_lockdowns
 [tomd]: https://tomd.xyz
+[now]: https://sive.rs/nowff
+[foam]: https://foambubble.github.io/
