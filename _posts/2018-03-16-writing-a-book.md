@@ -88,9 +88,9 @@ So please watch this space if you want to know more!
 **NB:** If you're a Java developer and you want to learn Apache Camel, or if you're just interested to hear more about the book, please check out [cleverbuilder.com/camelstepbystep][stepbystep].
 
 [amyhoy]: https://stackingthebricks.com
-[cleverbuilder]: https://cleverbuilder.com
+[cleverbuilder]: https://tomd.xyz
 [adamwathan]: https://adamwathan.me/
 [thorben]: https://www.thoughts-on-java.org/
-[stepbystep]: https://cleverbuilder.com/camelstepbystep
+[stepbystep]: https://tomd.xyz/camelstepbystep
 
 

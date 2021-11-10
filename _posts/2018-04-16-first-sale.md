@@ -11,7 +11,7 @@ tags:
 
 Huge week to share with you!
 
-This week I presold my first three copies of [_Camel Step by Step_][camelsbs], my beginners guide to Apache Camel ebook. 
+This week I presold my first three copies of [Camel Step by Step][camelsbs], my beginners guide to Apache Camel ebook. 
 
 I made my first sale last Monday, and then made **two more, later in the same week!**
 

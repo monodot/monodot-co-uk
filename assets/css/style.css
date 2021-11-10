@@ -38,6 +38,15 @@ nav {
     margin-bottom: 0;
 }
 
+p {
+    margin: 1rem 0 !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Stuff for articles */
 section article {
     padding: 1rem;
@@ -60,6 +69,13 @@ section article h2 {
 /* For the front page so it looks more even */
 section > ul {
     padding-right: 2rem;
+}
+
+div.prevnext {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media (min-width: 768px) {

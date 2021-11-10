@@ -34,8 +34,6 @@ Online communication tools are not a choice any more. They are a utility, used b
 
 Telephony is regulated. I have the choice to move my phone number between providers. I can phone any other phone number, even if it's on a different network.
 
-So why aren't the same freedoms respected with online communications?
-
-**We need data portability and privacy rights, and fair competition for online communication tools, now.**
+So why aren't the same freedoms guaranteed with online communications?
 
 [1]: https://arstechnica.com/tech-policy/2021/01/whatsapp-users-must-share-their-data-with-facebook-or-stop-using-the-app/

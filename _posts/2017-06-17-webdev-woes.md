@@ -8,7 +8,7 @@ comments: true
 
 So, I'm dabbling in web development again. 
 
-After years of solely doing enterprise-y Java stuff with my consulting day job, I'm now investing my free time building a [simple online invoicing tool][billform].
+After years of solely doing enterprise-y Java stuff with my consulting day job, I'm now investing my free time building a _simple online billing tool_.
 
 I'm mostly doing this to see whether I can [just f**king ship][jfs] something for a change.
 
@@ -105,8 +105,10 @@ At the same time, Laravel Mix tells me that it can't find 'babel-loader', whatev
 
 Here's the list of packages that **npm** says are installed in my project (that's a fairly simple Laravel project, using Laravel Mix and Bulma):
 
-    $ npm list | wc -l
-    7052
+```
+$ npm list | wc -l
+7052
+```
 
 **7,052 packages**. That is absolutely **insane**.
 
@@ -127,7 +129,6 @@ But man, Y U make thing so complicated?
 ![Complicated meeting](https://media.giphy.com/media/1Go6snuhSIxQ4/giphy.gif)
 
 
-[billform]: https://billform.com
 [jfs]: https://stackingthebricks.com/just-fucking-ship/
 [laravel]: https://laravel.com/
 [mvc]: http://www.dummies.com/web-design-development/mobile-apps/the-model-view-controller-mvc-design-pattern/
