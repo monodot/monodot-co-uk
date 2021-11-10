@@ -44,7 +44,7 @@ Blogs and sites from my friends, which you should go and visit!
 [foursquare-ios]: https://itunes.apple.com/gb/app/foursquare-city-guide/id306934924?mt=8
 [foursquare-web]: https://foursquare.com/
 [jek]: https://jekyllrb.com/
-[jenny]: http://www.jennynelson.co.uk/
+[jenny]: https://jennynelson.co.uk/
 [lucky]: https://www.luckytrip.co.uk/
 [mathsappeal]: http://itunes.apple.com/gb/podcast/maths-appeal/id1445702010
 [mvpcss]: https://andybrewer.github.io/mvp/
