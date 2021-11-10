@@ -4,23 +4,22 @@ layout: page
 subtitle: Inspired by Derek Sivers's Now page movement
 ---
 
-Hello! Here's what I'm up to right now. Last updated January 2021:
+Hello! Here's what I'm up to right now. Last updated November 2021:
 
-- I'm living in London and working as a consultant at Red Hat, where I've been since 2016\. Right now I'm permanently working from home due to [COVID-19 lockdown][lockd]. I'm trying to get out for exercise most days, but not always keeping up to my noble goal ;-)
+- I'm living in London and working as a consultant at Red Hat, where I've been working since 2016\. I specialise in things like integration, Java development, cloud/Kubernetes and DevOps, fixing and designing things for customers. I'm still mostly working from home, due to [COVID-19 lockdown][lockd].
 
-- I've just started a new web site, _Tutorial Works_, which I'm building up slowly with tech tutorials and articles. 
+- I'm building up my newest web site, [Tutorial Works][tw], which I started in November 2020. I'm slowly building up a bunch of tech tutorials and articles. 
 
-  I want to use it as a launchpad for improving my blogging and publishing skills. I've always been interested in writing, and in 2020 I finally decided to embrace imperfection and just start publishing more. _Tutorial Works_ is my platform for that. So I'm going all-in on publishing and teaching everything I know.
-  
-  My intention is to build up the traffic for the site over the coming months. It's still early days yet, but I'm excited about the journey!
+  I really enjoy writing for the site, and think of it like a little puzzle that I can keep coming back to, adding another piece here and there. I'm intending to write more at the start of 2022, and maybe even write a book for the site.
 
-- I'm inspired by the idea of **digital gardens**. I'm using [Foam][foam] to do my personal planning and note-taking, and wondering how I can use the digital garden approach when writing and publishing online.
+- I've been working on a webapp called [Apoll][apoll]. It scratches an itch I had this year: I needed a tool to gather feedback from online meetings -- like an NPS score, basically. At the time, I couldn't find anything which was simple and free, so I created my own. And I really enjoyed the process! So check it out if you want a simple way of gathering feedback on your next workshop/sales meeting/quiz night/whatever.
 
 _Inspired by [Derek Sivers's Now page movement][now]_
 
+[apoll]: https://apoll.app
 [bc]: https://bandcamp.com/monodot
 [ca]: http://www.cheeseanalogue.com
-[camelsbs]: https://cleverbuilder.com/camelstepbystep
+[camelsbs]: https://tomd.xyz/camelstepbystep
 [charles]: https://www.youtube.com/watch?v=K6fatndx8-A
 [doyouspin]: https://www.instagram.com/doyouspin/
 [flatbreads]: https://www.youtube.com/watch?v=vVx2oFFptG0
@@ -28,3 +27,4 @@ _Inspired by [Derek Sivers's Now page movement][now]_
 [tomd]: https://tomd.xyz
 [now]: https://sive.rs/nowff
 [foam]: https://foambubble.github.io/
+[tw]: https://www.tutorialworks.com
