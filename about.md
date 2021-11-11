@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-Hello! My name is Tom Donohue and this is my personal web site. I'm a blogger and software developer and I live in London. I'm interested in software, writing, and eggs. 
+Hello! My name is Tom Donohue and this is my personal web site. I'm a blogger and tech generalist and I live in London. I'm interested in software, writing, and eggs. 
 
 This website is basically to showcase the things I'm working on, thoughts on launching side projects, and for random writings on my blog.
 
