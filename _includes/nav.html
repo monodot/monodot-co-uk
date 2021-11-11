@@ -1,7 +1,10 @@
 {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav>
-    <a href="/">Tom Donohue</a>
+    <a href="/">
+      <img src="https://www.tutorialworks.com/assets/images/me-ba.jpg" width="316" height="316"/>
+      <span>Tom Donohue</span>
+    </a>
     <ul>
         {% for nav in navigation %}
           <li><a href="{{ nav.url }}">{{ nav.title }}</a></li>
