@@ -1,0 +1,100 @@
+---
+layout: post
+title:  "Tech Stack Dilemmas"
+description: "How do you choose"
+date:   2021-10-15 10:00:00 +0000
+---
+
+I’ve been spending the past few days trying to think of the ‘perfect’ tech stack, for a new app that I’m working on. 
+
+My latest idea is an app to make it easier to offer a discount on your Gumroad products, according to the country of the purchaser. 
+
+So, your fans from around the world can buy your product at a price that suits their local economy. 
+
+It’s a pretty simple idea but it does require some development. So I’ve been thinking of how to get started. And I’ve going round the houses with this decision. 🤡
+
+So far, I’ve considered the following:
+
+## AWS Lambda, Serverless Framework
+
+It’s beguiling but seems to become immediately complex. I think I have to learn a new language (Python, JavaScript) and DBMS (DynamoDB) to be productive. 
+
+Plus, I’m tied into AWS, which I don’t want. 
+
+Perhaps if I was working with this stack every day, it might be easier, but I’m feeling it’s too much of an uphill climb. 
+
+Trying to be ruthless with my time, I’ve killed this idea. 
+
+## Hasura/Postgresql and JS frontend
+
+Hasura is a trendy GraphQL API layer for your PostgreSQL databases. It’s a low-code way to generate APIs quickly.
+
+The general opinion on Hasura is pretty good. I can design tables, and have a GraphQL API up and running. 
+
+But the problem is that I have to self-host a Postgres database, and Hasura too. The Hasura Cloud offering is just too expensive, so I’d need to self host.
+
+Plus, I don’t know how long Hasura is going to be around for. I don’t want to build something today using an API that’s going to be withdrawn tomorrow. 
+
+## In praise of Spring Boot and PostgreSQL for hobby projects 
+
+Boring, unsexy, and built for “the enterprise”. 
+
+I’m not going to win any innovation awards for using Spring and MVC. But I think it’s time to reconsider that stance. 
+
+Over the last year or so, I have created a few little hobby projects, and been playing around with frameworks and languages that are new to me. 
+
+I’ve learned the basics of server side JavaScript and creating APIs with Express and Node.js. 
+
+I’ve also dabbled in AWS Lambda functions. I played around with service framework. The  I got fed up because finding up-to-date documentation and examples was really hard, and I was bewildered at the number of objects it was creating in my AWS account just to deploy an API.
+
+One of these projects was a simple polling app. It was all Serverless with Lambda and a Svelte single-page-app front end. 
+
+But then I realised I was spending such a huge amount of time keeping up with it all. And yet **I already have the knowledge to create a web app**. I’ve been doing it since 1998 with PHP.
+
+These days I wouldn’t use PHP. I wouldn’t know how to properly secure it. 
+
+So why not use the technologies I already know and use for my customers every day??
+
+**Java with Spring is the development stack that I’m most familiar with.**
+
+Spring’s been around for over 10 years. _It doesn’t change very often_. It’s backed by a big company (VMware/Pivotal) and is used in all the slow, dull enterprise environments. 
+
+Perfect.
+
+I ignored Java/Spring for my own personal projects because it’s not very exciting. And because I thought I should be learning something new. 
+
+But Spring isn’t going anywhere. And it comes with batteries included. No need to pull in some obscure dependency just to get basic functionality. 
+
+Everything is curated, feature-complete, and stable. 
+
+So why the heck didn’t I consider it before?
+
+For me, it’s a perfect choice to just get something done, in a mature ecosystem. Everything has already been thought of, from database migrations with Flyway, to REST APIs.
+
+### Templates and MVC are very cool indeed 
+
+I’m not building a billion-scale microservice. It’s literally a CRUD app with some fancy bits. 
+
+Thymeleaf templates let me create some nice pages and inject some data onto them. 
+
+And I can even do this with livereload in the browser. Reloading the browser every time I change a template. Wow!
+
+Sprinkle some styling a little dynamic behaviour with Htmx, and I’ve got a nice looking app.
+
+### Easy to run
+
+I can run the app on a basic Linode or Hetzner server (with plenty of room for other apps too).
+
+Building is just a simple mvn clean package on my laptop. 
+
+Then I RSYNC the jar to the server. Ha ha. Yes! RSYNC! People literally laugh at me on the street for this. 
+
+How does the app run?
+
+Install a JDK. My linux distribution comes with a stable JDK, so i just use that. 
+
+Then java -jar. Done. It runs the database migrations and starts the app. 
+
+I mean, it’s so laughably simple, that I don’t know why I’ve never considered it before. 
+
+
