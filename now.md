@@ -4,18 +4,17 @@ layout: page
 subtitle: Inspired by Derek Sivers's Now page movement
 ---
 
-Hello! Here's what I'm up to right now. Last updated November 2021:
+Hello! Here's what I'm up to right now. Last updated August 2022:
 
-- I'm living in London and working as a consultant at Red Hat, where I've been working since 2016\. I specialise in things like integration, Java development, cloud/Kubernetes and DevOps, fixing and designing things for customers. I'm still mostly working from home, due to [COVID-19 lockdown][lockd].
+- I'm living in London, and working in consulting at Red Hat (although I'm leaving soon).
 
-- I'm building up my newest web site, [Tutorial Works][tw], which I started in November 2020. I'm slowly building up a bunch of tech tutorials and articles. 
+- I'm still working on my main tech website, [Tutorial Works][tw], which I started in November 2020. I enjoy build up a library of tutorials and articles.
 
-  I really enjoy writing for the site, and think of it like a little puzzle that I can keep coming back to, adding another piece here and there. I'm intending to write more at the start of 2022, and maybe even write a book for the site.
-
-- I've been working on a webapp called [Apoll][apoll]. It scratches an itch I had this year: I needed a tool to gather feedback from online meetings -- like an NPS score, basically. At the time, I couldn't find anything which was simple and free, so I created my own. And I really enjoyed the process! So check it out if you want a simple way of gathering feedback on your next workshop/sales meeting/quiz night/whatever.
+- I've just launched a new website called [London Links][londonlinks], which is a curated list of useful websites for Londoners. Like a directory sites for essential living and London inspiration!
 
 _Inspired by [Derek Sivers's Now page movement][now]_
 
+[londonlinks]: https://london-links.netlify.app/
 [apoll]: https://apoll.app
 [bc]: https://bandcamp.com/monodot
 [ca]: http://www.cheeseanalogue.com
