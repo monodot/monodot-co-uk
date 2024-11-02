@@ -34,7 +34,7 @@ content:
         type: string
       - name: body
         label: Body
-        type: rich-text
+        type: text
   - name: config
     label: Site configuration
     path: _config.yml
