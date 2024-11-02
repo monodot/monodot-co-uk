@@ -31,7 +31,11 @@ content:
         type: string
       - name: layout
         label: Layout
-        type: string
+        type: select
+        options:
+          values:
+          - value: page
+            label: page
       - name: body
         label: Body
         type: text
