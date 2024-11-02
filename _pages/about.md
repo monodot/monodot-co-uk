@@ -5,7 +5,7 @@ layout: page
 
 Hello! My name is Tom Donohue and this is my personal web site. I'm a blogger and tech generalist and I live in London. I'm interested in software, writing, and egg sandwiches. 
 
-This website is to share the things I'm working on, my thoughts on side projects, and for random writings!
+This website is a place for me to share the things that I'm working on, my thoughts on side projects, and for random writings!
 
 Currently my main activities are:
 
