@@ -2,9 +2,11 @@
 main:
   - title: "Now"
     url: /now/
-  - title: "About me"
+    weight: 1
+  - title: "About"
     url: /about/
-  - title: "Links"
-    url: /links/
+    weight: 2
   - title: "Contact"
     url: /contact/
+    weight: 3
+

@@ -1,0 +1,63 @@
+---
+---
+
+@use 'pico/pico';
+
+@use 'home';
+// @use 'post';
+
+@font-face {
+  font-family: 'Set Equal';
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('/assets/fonts/SetEqual-Regular.subset.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Set Equal';
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url('/assets/fonts/SetEqual-SemiBold.subset.woff2') format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --content-width: 60ch;
+
+  --pico-font-family: 'Set Equal', Arial, Helvetica, sans-serif;
+
+  --feint-background-color: rgb(242, 240, 236);
+}
+
+.prose {
+  max-width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
+
+  h1 {
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  article {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: none;
+
+    // If you want to remove margin as well
+    margin: 0;
+
+    > header {
+      border-bottom: none;
+      margin-left: 0;
+      margin-right: 0;
+      background: none;
+    }
+  }
+}

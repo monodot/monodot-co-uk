@@ -2,52 +2,11 @@
 layout: default
 ---
 
-{% if page.header.image contains "://" %}
-  {% capture img_path %}{{ page.header.image }}{% endcapture %}
-{% else %}
-  {% capture img_path %}{{ page.header.image | relative_url }}{% endcapture %}
-{% endif %}
-
-<section>
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%d %B %Y" }}">{% endif %}
-        {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
-
+<div class="prose">
+    <article itemtype="http://schema.org/CreativeWork">
         <header>
             <h1>{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-            {% if page.date %}<p>{{ page.date | date: "%d %B %Y" }}</p>{% endif %}
-
-            {% if page.header.image %}
-            <figure>
-                <img src="{{ img_path }}" alt="{{ page.title | strip_html }}"/>
-            </figure>
-            {% endif %}
         </header>
-
         {{ content }}
-
-        <hr/>
-
-        <div class="prevnext">
-            {% if page.previous.url %}
-                <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-            {% endif %}
-            {% if page.next.url %}
-                <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-            {% endif %}
-        </div>
-
-        <hr/>
-
-        <script src="https://utteranc.es/client.js"
-                repo="monodot/blog-comments"
-                issue-term="pathname"
-                label="comment"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
-        </script>
     </article>
-</section>
+</div>

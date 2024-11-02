@@ -1,39 +1,43 @@
-{%- if page.title -%}
-  {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
-{%- endif -%}
-
-{% if page.canonical_url %}
-  {%- assign canonical_url = page.canonical_url %}
-{% else %}
-  {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
-{% endif %}
-
-{%- assign page_og_image = page.image | absolute_url -%}
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>{{ page.title | strip_html }} | {{ site.title }}</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="/assets/css/mvp.css"/>
-    <link rel="stylesheet" href="/assets/css/style.css"/>
-    <!-- This defines the width of the browser viewport as the device's width itself (for nice rendering on mobile!) -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed"/>
-
-    {% include plausible_analytics.html %}
-    {% include seo.html %}
-
-</head>
-
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    {%- seo -%}
+  </head>
+  <body class="layout-{{ page.layout }}">
     <header>
-        {% include nav.html nav="main" %}
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a href="{{ "/" | relative_url }}"><strong>{{ site.title }}</strong></a>
+            </li>
+          </ul>
+          <ul>
+            {% for link in site.data.navigation.main %}
+            <li>
+              <a href="{{ link.url | relative_url }}" rel="permalink" class="secondary">{{ link.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-        {{ content }}
-    </main>
-</body>
+    <main class="container">
 
+      {{ content }}
+
+    </main>
+    <footer>
+      <div class="container">
+        <section></section>
+        <section>
+          <p>{{ site.footer.copyright }}</p>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>

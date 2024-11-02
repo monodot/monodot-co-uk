@@ -6,6 +6,7 @@ url: "https://monodot.co.uk"
 baseurl: # the subpath of your site, e.g. "/blog"
 description: > # this means to ignore newlines until "show_excerpts:"
   Tom's personal blog, sharing what I'm up to, opinions, and stuff I'm working on.
+avatar: /assets/img/me-avatar.jpg
 
 show_excerpts: false # set to true to show excerpts on the homepage
 locale: en_GB
@@ -52,3 +53,15 @@ plugins:
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
   - jekyll-tidy
 
+sass:
+  sass_dir: _sass
+  style: compressed  # This will minify your CSS in production
+
+footer:
+  copyright: ""
+
+jekyll_tidy:
+  ignore_env: development
+  exclude:
+    - '**/*.scss'
+    - '**/*.js'

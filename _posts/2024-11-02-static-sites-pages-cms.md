@@ -1,6 +1,6 @@
 ---
 date: 2024-11-02
-title: How to reboot my static sites - discovering Pages CMS
+title: Making editing static sites easier
 ---
 Recently I've been trying to drum up the enthusiasm for tidying up and overhauling my current [heap](https://www.tutorialworks.com) of [static](https://tomd.xyz) [sites](/).
 
